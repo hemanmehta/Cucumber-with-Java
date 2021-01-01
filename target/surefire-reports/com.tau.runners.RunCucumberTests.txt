@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.tau.runners.RunCucumberTests
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 192.204 s <<< FAILURE! - in com.tau.runners.RunCucumberTests
+Login Successful using Dependency Injection #1(Login functionality feature #2)  Time elapsed: 14.286 s  <<< FAILURE!
+java.lang.AssertionError: Welcome Raghu sastri
+
+Login Successful using Dependency Injection #2(Login functionality feature #2)  Time elapsed: 14.697 s  <<< FAILURE!
+java.lang.AssertionError: Welcome Raghu sastri
+

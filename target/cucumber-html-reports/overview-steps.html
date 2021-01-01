@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumber-jvm-example</td>
+              <td>1</td>
+            <td>01 Jan 2021, 18:33</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()</td>
+              <td>12</td>
+              <td class="duration" data-value="4339666666">4.339</td>
+              <td class="duration" data-value="4339666666">7.483</td>
+              <td class="duration" data-value="52076000000">52.076</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.i_enter_credentials()</td>
+              <td>2</td>
+              <td class="duration" data-value="3279500000">3.279</td>
+              <td class="duration" data-value="3279500000">3.586</td>
+              <td class="duration" data-value="6559000000">6.559</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.i_enter_credentials_with_datatable(io.cucumber.datatable.DataTable)</td>
+              <td>2</td>
+              <td class="duration" data-value="2565500000">2.565</td>
+              <td class="duration" data-value="2565500000">3.077</td>
+              <td class="duration" data-value="5131000000">5.131</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.i_enter_valid_credentials(java.lang.String,java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="2054750000">2.054</td>
+              <td class="duration" data-value="2054750000">2.704</td>
+              <td class="duration" data-value="8219000000">8.219</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.i_enter_valid_credentials_with_DI(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="1768500000">1.768</td>
+              <td class="duration" data-value="1768500000">1.940</td>
+              <td class="duration" data-value="7074000000">7.074</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.i_should_be_taken_to_DI_overview_page()</td>
+              <td>4</td>
+              <td class="duration" data-value="6236000000">6.236</td>
+              <td class="duration" data-value="6236000000">6.527</td>
+              <td class="duration" data-value="24944000000">24.944</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.i_should_be_taken_to_overview_page()</td>
+              <td>8</td>
+              <td class="duration" data-value="6546875000">6.546</td>
+              <td class="duration" data-value="6546875000">7.551</td>
+              <td class="duration" data-value="52375000000">52.375</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.setup()</td>
+              <td>12</td>
+              <td class="duration" data-value="4791416666">4.791</td>
+              <td class="duration" data-value="4791416666">6.074</td>
+              <td class="duration" data-value="57497000000">57.497</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.tau.steps.Steps.teardown()</td>
+              <td>12</td>
+              <td class="duration" data-value="630750000">0.630</td>
+              <td class="duration" data-value="630750000">1.779</td>
+              <td class="duration" data-value="7569000000">7.569</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>9</td>
+            <td>60</td>
+            <td class="duration">3.690</td>
+            <td class="duration">57.497</td>
+            <td class="duration">3:41.444</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

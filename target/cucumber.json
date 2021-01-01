@@ -1,0 +1,964 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-01T13:01:10.054Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5407000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality-feature;login-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 593000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7483000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am in Login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3586000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter credentials",
+            "match": {
+              "location": "com.tau.steps.Steps.i_enter_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7037000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:01:34.231Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4573000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality-feature;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 538000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4797000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2704000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter valid \"autotester\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"autotester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6365000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:01:53.222Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4496000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality-feature;login-successful;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 372000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3750000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1671000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter valid \"tautestuser\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautestuser\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6267000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:02:09.801Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4282000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login Successful using DataTable",
+        "description": "",
+        "id": "login-functionality-feature;login-successful-using-datatable",
+        "after": [
+          {
+            "result": {
+              "duration": 302000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4318000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am in Login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3077000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter credentials with datatable",
+            "match": {
+              "location": "com.tau.steps.Steps.i_enter_credentials_with_datatable(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\"autotester\"",
+                  "\"password\""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6301000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:02:28.092Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4615000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Login Successful using Dependency Injection",
+        "description": "",
+        "id": "login-functionality-feature;login-successful-using-dependency-injection;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3350000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1762000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter valid \"autotester\" and \"password\" with \" Raghu sastri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"autotester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\" Raghu sastri\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials_with_DI(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6124000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should be taken to DI Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_DI_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:02:44.089Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4016000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Login Successful using Dependency Injection",
+        "description": "",
+        "id": "login-functionality-feature;login-successful-using-dependency-injection;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 235000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3209000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter valid \"tautester\" and \"password\" with \" Raghu sastri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\" Raghu sastri\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials_with_DI(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6216000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should be taken to DI Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_DI_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality feature",
+    "description": "  In order to do internet banking\n  As a valid Para Bank customer\n  I want to login successfully",
+    "id": "login-functionality-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-01T13:01:10.058Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6074000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality-feature;login-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 1105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6937000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am in Login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2973000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter credentials",
+            "match": {
+              "location": "com.tau.steps.Steps.i_enter_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7551000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:01:34.735Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5285000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality-feature;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 793000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3877000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2242000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter valid \"autotester\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"autotester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6380000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:01:53.323Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4692000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality-feature;login-successful;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1779000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4230000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1602000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter valid \"tautestuser\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautestuser\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6202000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:02:11.835Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4566000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login Successful using DataTable",
+        "description": "",
+        "id": "login-functionality-feature;login-successful-using-datatable",
+        "after": [
+          {
+            "result": {
+              "duration": 844000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3056000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am in Login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2054000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter credentials with datatable",
+            "match": {
+              "location": "com.tau.steps.Steps.i_enter_credentials_with_datatable(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\"autotester\"",
+                  "\"password\""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6272000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should be taken to Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:02:28.637Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5578000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Login Successful using Dependency Injection",
+        "description": "",
+        "id": "login-functionality-feature;login-successful-using-dependency-injection;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 174000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3647000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1940000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter valid \"autotester\" and \"password\" with \" Raghu sastri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"autotester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\" Raghu sastri\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials_with_DI(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6527000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should be taken to DI Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_DI_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T13:02:46.512Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3913000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Login Successful using Dependency Injection",
+        "description": "",
+        "id": "login-functionality-feature;login-successful-using-dependency-injection;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3422000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am in login page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_login_page_of_the_para_bank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1911000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter valid \"tautester\" and \"password\" with \" Raghu sastri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\" Raghu sastri\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials_with_DI(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6077000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should be taken to DI Overview Page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_DI_overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality feature",
+    "description": "  In order to do internet banking\n  As a valid Para Bank customer\n  I want to login successfully",
+    "id": "login-functionality-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login2.feature",
+    "tags": []
+  }
+]
